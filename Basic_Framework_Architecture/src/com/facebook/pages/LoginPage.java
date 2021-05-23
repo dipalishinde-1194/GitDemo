@@ -17,6 +17,7 @@ public class LoginPage extends MasterPage {
 
 	public void clickEmailOrPhone() {
 		click("Email");
+		logger.info("EmialOrPhone field is clicked");
 	}
 
 	public void enterUserName() {
@@ -26,6 +27,7 @@ public class LoginPage extends MasterPage {
 
 	public void clickPassword() {
 		click("password");
+		logger.info("Password field is clicked");
 	}
 
 	public void enterPassword1() {
