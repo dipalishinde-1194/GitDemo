@@ -14,12 +14,12 @@ public class LoginTest {
 public void doLoginTest() throws Exception
 {
 	 LoginPage lp = new LoginPage();
-    // lp.clickEmailOrPhone();
-    // lp.enterUserName();
-    // lp.clickPassword();
-    // lp.enterPassword();
-	 lp.enterUsername();
-	 lp.enterPassword();
+    lp.clickEmailOrPhone();
+    lp.enterUserName();
+     lp.clickPassword();
+     lp.enterPassword1();
+	 //lp.enterUsername();
+	// lp.enterPassword();
      lp.clickLoginButton();
 }
 
